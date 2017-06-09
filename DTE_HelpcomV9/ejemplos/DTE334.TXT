@@ -1,0 +1,87 @@
+H: ** Encabezado **
+A: Tipo               33
+A: DFolio             11
+A: DFechaEmision      20-02-2015
+A: DTipoDespacho      2
+A: DFormaPago         2
+A: DFechaVencimiento  20-02-2015
+A: DMotivo            
+A: ERut               79716930-7
+A: ENombre            SOC COMERCIALIZADORA B Y K LIMITADA
+A: EGiro              VENTA AL POR MAYOR DE ARTICULOS DE PERFUMERIA
+A: EACTECO            501010
+A: EDireccion         MANUEL MONTT 1206 TEMUCO
+A: EComuna            TEMUCO
+A: ECiudad            LAUTARO
+A: RRut               12656323-K
+A: RRazonSocial       PAULA ZENTENO GALLARDO
+A: RGiro              MINIMARKET
+A: REmail             
+A: RDireccion         AVDA.BRASIL 133
+A: RComuna            CALBUCO
+A: RCiudad            CALBUCO
+A: RDireccionEnvio    AVDA.BRASIL 133
+A: RComunaEnvio       CALBUCO
+A: RCiudadEnvio       CALBUCO
+A: RID_Cliente        2437
+A: Vendedor           ARTURO. GUTIERREZ
+A: Cpago              NOSE
+A: TTipoMovimiento    D
+A: TGlosa             TOTAL DESCUENTOS
+A: TTipoValor         $
+A: TValor             8963
+A: TNeto              137729
+A: TExento            0
+A: TTasaIva           19
+A: TIva               26169
+A: TTotal             166505
+A: TTotalPalabras     CIENTO  SESENTA Y SEIS MIL QUINIENTOS  CINCO
+A: TCod_Imp_Carne     18
+A: TTasa_Imp          5
+A: TValorImp          0
+A: TCod_Imp_Harina    19
+A: TTasa_Imp          12
+A: TValorImp          0
+A: TCod_Imp_ Licor    24
+A: TTasa_Imp          27
+A: TValorImp          0
+A: TCod_Imp_ Vino     25
+A: TTasa_Imp          15
+A: TValorImp          1849
+A: TCod_Imp_ Cerveza  26
+A: TTasa_Imp          20,5
+A: TValorImp          758
+A: TCod_Imp_C/Azucar  271
+A: TTasa_Imp          13
+A: TValorImp          0
+ H: * DETALLE DE *
+H: Corr. |Cod. Articulo            |Descrip. Articulo                                                                                   |Cantidad  |U de M    |Precio Unitario  |Exenta           |Descuento1|Descuento2|Descuento $      |CodImpAd|Precio Total     |
+B: 1     |42195474                 |NIVEA BARRA DAMA CALM &CARE 43 GRS.                                                                 |12,000    |GR        |960,014          |0                |4,00      |0,00      |571              |0       |11520            |
+B: 2     |42236986                 |NIVEA BARRA DAMA STRESS PROTECT 43 GRS                                                              |12,000    |GR        |960,014          |0                |4,00      |0,00      |571              |0       |11520            |
+B: 3     |4005808630660            |DEO NIVEA SP DAMA ACLARADO 150 ML                                                                   |6,000     |CC        |959,944          |0                |4,00      |0,00      |286              |0       |5760             |
+B: 4     |4005808715688            |DEO NIVEA SP DAMA STRES /PROTECT 150 ML                                                             |6,000     |ML        |959,944          |0                |4,00      |0,00      |286              |0       |5760             |
+B: 5     |4005900036612            |DEO NIVEA SP DAMA INV-B Y N PURE 150ML                                                              |6,000     |ML        |959,944          |0                |4,00      |0,00      |286              |0       |5760             |
+B: 6     |7804916511079            |TALCO BENEFACTUS 160GR                                                                              |6,000     |GR        |1273,810         |0                |4,00      |0,00      |379              |0       |7643             |
+B: 7     |7855                     |TALCO BENEFACTUS 160GR MENTOLADO                                                                    |6,000     |GR        |1273,810         |0                |4,00      |0,00      |379              |0       |7643             |
+B: 8     |4891138949516            |FAROL RECARGABLE HARD CASE HIBRIDO PROFESIONAL                                                      |1,000     |UN        |21272,269        |0                |4,00      |0,00      |1055             |0       |21272            |
+B: 9     |4891228530136            |MAQUINA QUATRO * 8 UN VARON DESECHABLE                                                              |3,000     |UN        |3839,216         |0                |4,00      |0,00      |571              |0       |11518            |
+B: 10    |7804920230225            |BALLERINA JABON VALV*350 AVENA/ALMENDRA                                                             |6,000     |UN        |588,095          |0                |4,00      |0,00      |175              |25      |3529             |
+B: 11    |7804920350657            |BALLERINA JABON VALV*350 VIOLETA                                                                    |6,000     |UN        |588,095          |0                |4,00      |0,00      |175              |0       |3529             |
+B: 12    |7804920000507            |BALLERINA JABON VALV*350 YOGHURT MIEL                                                               |6,000     |UN        |604,202          |0                |4,00      |0,00      |180              |0       |3625             |
+B: 13    |7804920350664            |BALLERINA JABON VALV*350 HIPOALERGENICO                                                             |6,000     |UN        |588,095          |0                |4,00      |0,00      |175              |0       |3529             |
+B: 14    |1172                     |TOALLA DE PAPEL 200MT. X 2 UN. GOFRADA                                                              |2,000     |MT        |5639,076         |0                |4,00      |0,00      |559              |25      |11278            |
+B: 15    |7805450000098            |ORBIT 210GR X 15 UN.SPEARMINT VERDE                                                                 |1,000     |UN        |3871,429         |0                |4,00      |0,00      |192              |0       |3871             |
+B: 16    |7804920357328            |ACOND.BALLERINA FRASCO*400 HIERBAS                                                                  |6,000     |ML        |555,882          |0                |4,00      |0,00      |165              |0       |3335             |
+B: 17    |7804920012128            |ACOND.BALLERINA FRASCO*400 YOG/ARANDANOS                                                            |6,000     |ML        |555,882          |0                |4,00      |0,00      |165              |26      |3335             |
+B: 18    |7804902016748            |CORAL SUMMER SPRAY                                                                                  |3,000     |UN        |1477,871         |0                |15,00     |0,00      |931              |0       |4434             |
+B: 19    |7804902028161            |CORAL CRYSTAL SPRAY 100 ML.                                                                         |3,000     |UN        |1477,871         |0                |15,00     |0,00      |931              |0       |4434             |
+B: 20    |7804902016014            |CORAL CHIC SPRAY 100 ML.                                                                            |3,000     |UN        |1477,871         |0                |15,00     |0,00      |931              |0       |4434             |
+ 
+ 
+ 
+ 
+ 
+ 
+H: **DETALLE DE REFERENCIA**
+H:Corr. |Tipo Sii  |Folio               |Fecha     |Cod Refer.
+H:1     |802       |20-1783             |18-12-2014|

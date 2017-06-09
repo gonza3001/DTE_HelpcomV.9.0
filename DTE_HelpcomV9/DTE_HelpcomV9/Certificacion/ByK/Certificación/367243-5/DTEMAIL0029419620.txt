@@ -1,0 +1,15 @@
+Resultado de Validacion de Envio de DTE
+=======================================
+
+Rut de Empresa Emisora   : 79716930-7
+Rut que Realizo el Envio : 6687139-8
+Identificador de Envio   :   29419620
+Fecha de Recepcion       : 14/04/2015 12:29:07
+Estado del Envio         : EPR - Envio Procesado
+
+Estadisticas del Envio
+======================
+Tipo DTE  Informados  Rechazos  Reparos  Aceptados
+--------------------------------------------------
+   61              1         0        0          1
+

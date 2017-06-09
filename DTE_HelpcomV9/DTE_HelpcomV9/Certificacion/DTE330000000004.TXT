@@ -1,0 +1,70 @@
+ H: ** Encabezado **
+A: Tipo               33
+A: DFolio             15	
+A: DFechaEmision      2015-07-04
+A: DTipoDespacho      2
+A: DFormaPago         2
+A: DFechaVencimiento  2015-07-01
+A: DMotivo            
+A: ERut               76415442-8
+A: ENombre            FERRETERIA LA PRUEBA
+A: EGiro              FERRETERIA
+A: EACTECO            000000
+A: EDireccion         AVDA BERNARDO OHIGGINS 1096
+A: EComuna            TEMUCO
+A: ECiudad            TEMUCO
+A: RRut               10434553-0
+A: RRazonSocial       ACUÑA RAMIREZ JUAN
+A: RGiro              CONTRATISTA
+A: REmail             
+A: RDireccion         TEMUCO
+A: RComuna            
+A: RCiudad            TEMUCO
+A: RDireccionEnvio    TEMUCO
+A: RComunaEnvio       
+A: RCiudadEnvio       TEMUCO
+A: RID_Cliente        148
+A: Vendedor           Aldo Navarrete
+A: CondicionPago            TELEFONO: 
+A: TTipoMovimiento    
+A: TGlosa             
+A: TTipoValor         
+A: TValor             
+A: TNeto              4933
+A: TExento            0
+A: TTasaIva           
+A: TIva               937
+A: TTotal             5870
+A: TTotalPalabras     CINCO MIL OCHOCIENTOS SETENTA
+A: TCod_Imp_Carne     18
+A: TTasa_Imp          5
+A: TValorImp          0
+A: TCod_Imp_Harina    19
+A: TTasa_Imp          12
+A: TValorImp          0
+A: TCod_Imp_ Licor    24
+A: TTasa_Imp          27
+A: TValorImp          0
+A: TCod_Imp_ Vino     25
+A: TTasa_Imp          15
+A: TValorImp          0
+A: TCod_Imp_ Cerveza  26
+A: TTasa_Imp          20,5
+A: TValorImp          0
+A: TCod_Imp_C/Azucar  271
+A: TTasa_Imp          13
+A: TValorImp          0
+A: Desc_Glob          0
+ H: * DETALLE DE *
+H: Corr. |Cod. Articulo            |Descrip. Articulo                                                                                   |Cantidad  |U de M    |Precio Unitario  |Exenta           |Descuento1|Descuento2|Descuento $      |CodImpAd|Precio Total     |
+B: 1     |6931598215740            |ADHES.INSTANTANEO SUPER PEGAMENT UYUSTOOLS                                                          |1,000     |UN        |294,118          |0                |0,00      |0,00      |0                |0       |294              |
+B: 2     |7805500010138            |ADHES.AGOREX 60 POMO 120CC. HENKEL                                                                  |1,000     |UN        |2394,958         |0                |0,00      |0,00      |0                |0       |2395             |
+B: 3     |7805500010060            |ADHES.AGOREX 60 TARRO 1/32GLN AGOREX                                                                |1,000     |UN        |1420,168         |0                |0,00      |0,00      |0                |0       |1420             |
+B: 4     |7805500090376            |ADHES.PEGAFIX MADERA POTE 110 HENKEL                                                                |1,000     |UN        |823,529          |0                |0,00      |0,00      |0                |0       |824              |
+ 
+ 
+ 
+ 
+
+H: **DETALLE DE REFERENCIA**
+H:Corr. |Tipo Sii  |Folio               |Fecha     |Cod Refer.

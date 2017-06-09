@@ -1,0 +1,67 @@
+H: ** Encabezado **
+A: Tipo               33
+A: DFolio             35
+A: DFechaEmision      2015-02-20
+A: DTipoDespacho      2
+A: DFormaPago         2
+A: DFechaVencimiento  2015-02-20
+A: DMotivo            
+A: ERut               79716930-7
+A: ENombre            SOC COMERCIALIZADORA B Y K LIMITADA
+A: EGiro              VENTA O COMPRAVENTA AL POR MENOR DE VEHICULOS AUTOMOTORES NUEVOS O USA 
+A: EACTECO            501020
+A: EDireccion         MANUEL MONTT 1206 TEMUCO
+A: EComuna            TEMUCO
+A: ECiudad            LAUTARO
+A: RRut               60803000-K
+A: RRazonSocial       Servicio de Impuestos Internos
+A: RGiro              GOBIERNO CENTRAL Y ADMINISTRACION PUB.
+A: REmail             
+A: RDireccion         Av. Prueba de emision
+A: RComuna            SANTIAGO
+A: RCiudad            SANTIAGO
+A: RDireccionEnvio    FUNDO DEL CARMEN
+A: RComunaEnvio       TEMUCO
+A: RCiudadEnvio       TEMUCO
+A: RID_Cliente        2437
+A: Vendedor           Director Impuestos Internos
+A: Cpago              NOSE
+A: TTipoMovimiento    D
+A: TGlosa             TOTAL DESCUENTOS
+A: TTipoValor         $
+A: TValor             8963
+A: TNeto              443200
+A: TExento            34649
+A: TTasaIva           19
+A: TIva               84208
+A: TTotal             562057
+A: TTotalPalabras     CIENTO  SESENTA Y SEIS MIL QUINIENTOS  CINCO
+A: TCod_Imp_Carne     18
+A: TTasa_Imp          5
+A: TValorImp          0
+A: TCod_Imp_Harina    19
+A: TTasa_Imp          12
+A: TValorImp          0
+A: TCod_Imp_ Licor    24
+A: TTasa_Imp          27
+A: TValorImp          0
+A: TCod_Imp_ Vino     25
+A: TTasa_Imp          15
+A: TValorImp          1849
+A: TCod_Imp_ Cerveza  26
+A: TTasa_Imp          20,5
+A: TValorImp          758
+A: TCod_Imp_C/Azucar  271
+A: TTasa_Imp          13
+A: TValorImp          0
+A: Desc_Glob          0 
+H: * DETALLE DE *
+H: Corr. |Cod. Articulo            |Descrip. Articulo                                                                                   |Cantidad  |U de M    |Precio Unitario  |Exenta           |Descuento1|Descuento2|Descuento $      |CodImpAd|Precio Total     |A-E|
+B: 1     |42195473                 |Pintura B&W AFECTO                                                                                  |24        |GR        |1410             |0                |0         |0,00      |0                |0       |33840            |0  |           
+B: 2     |42236986                 |ITEM 2 AFECTO                                                                                       |140       |GR        |2924             |0                |0         |0,00      |0                |0       |409360           |0  |
+B: 3     |42236987                 |ITEM 3 SERVICIO EXENTO                                                                              |1         |GR        |34649            |0                |0         |0,00      |0                |0       |34649            |1  | 
+
+H: **DETALLE DE REFERENCIA**
+H: Corr. |Tipo Sii  |Folio               |Fecha     |Cod Refer.|Razon Ref                                     |
+R: 1     |802       |24	                 |2015-04-02|999       |CASO 372565-3                                 |   
+

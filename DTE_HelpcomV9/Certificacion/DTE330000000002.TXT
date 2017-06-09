@@ -1,0 +1,87 @@
+H: ** Encabezado **
+A: Tipo               33
+A: DFolio             2
+A: DFechaEmision      2015-07-01
+A: DTipoDespacho      2
+A: DFormaPago         2
+A: DFechaVencimiento  2015-07-01
+A: DMotivo            
+A: ERut               76415442-8
+A: ENombre            FERRETERIA EL RODEO
+A: EGiro              FERRETERIA
+A: EACTECO            501020
+A: EDireccion         AVDA BERNARDO OHIGGINS 1096
+A: EComuna            
+A: ECiudad            
+A: RRut               10780246-0
+A: RRazonSocial       ARAYA ACUÑA ALEJANDRA ANDREA
+A: RGiro              PELUQUERIA
+A: REmail             
+A: RDireccion         EDO. JEQUIER 1450
+A: RComuna            LAUTARO
+A: RCiudad            LAUTARO
+A: RDireccionEnvio    EDO. JEQUIER 1450
+A: RComunaEnvio       LAUTARO
+A: RCiudadEnvio       LAUTARO
+A: RID_Cliente        285
+A: Vendedor           
+A: CondicionPago            TELEFONO: 83748075
+A: TTipoMovimiento    
+A: TGlosa             
+A: TTipoValor         
+A: TValor             
+A: TNeto              77513
+A: TExento            0
+A: TTasaIva           
+A: TIva               14727
+A: TTotal             92240
+A: TTotalPalabras     NOVENTA Y DOS MIL DOSCIENTOS CUARENTA
+A: TCod_Imp_Carne     18
+A: TTasa_Imp          5
+A: TValorImp          0
+A: TCod_Imp_Harina    19
+A: TTasa_Imp          12
+A: TValorImp          0
+A: TCod_Imp_ Licor    24
+A: TTasa_Imp          27
+A: TValorImp          0
+A: TCod_Imp_ Vino     25
+A: TTasa_Imp          15
+A: TValorImp          0
+A: TCod_Imp_ Cerveza  26
+A: TTasa_Imp          20,5
+A: TValorImp          0
+A: TCod_Imp_C/Azucar  271
+A: TTasa_Imp          13
+A: TValorImp          0
+A: Desc_Glob          0
+ H: * DETALLE DE *
+H: Corr. |Cod. Articulo            |Descrip. Articulo                                                                                   |Cantidad  |U de M    |Precio Unitario  |Exenta           |Descuento1|Descuento2|Descuento $      |CodImpAd|Precio Total     |
+B: 1     |4480                     |INTERRUPTOR S.P. 9/24 CASTILLO                                                                      |1,000     |UN        |1050,420         |0                |0,00      |0,00      |0                |0       |1050             |
+B: 2     |7805500010091            |ADHES.AGOREX 60 TARRO 1GLN. HENKEL                                                                  |4,000     |UN        |14268,908        |0                |0,00      |0,00      |0                |0       |57076            |
+B: 3     |7805500010138            |ADHES.AGOREX 60 POMO 120CC. HENKEL                                                                  |5,000     |UN        |2394,958         |0                |0,00      |0,00      |0                |0       |11975            |
+B: 4     |7805500010077            |ADHES.AGOREX 60 TARRO 1/16GLN AGOREX                                                                |1,000     |UN        |2504,202         |0                |0,00      |0,00      |0                |0       |2504             |
+B: 5     |6935637406519            |CONECTOR HEMBRA 3/4 MANGUER DPLS DURA                                                               |2,000     |UN        |1168,067         |0                |0,00      |0,00      |0                |0       |2336             |
+B: 6     |20459                    |MEMBRANA NUEVO MADEMSA MPV                                                                          |1,000     |UN        |411,765          |0                |0,00      |0,00      |0                |0       |412              |
+B: 7     |7730187303153            |GUANTES DOMESTICO GRANDE  L JASPE                                                                   |1,000     |UN        |495,798          |0                |0,00      |0,00      |0                |0       |496              |
+B: 8     |7802170000056            |ACEITE MEZCLA 2 TIEMPOS  500 CC OIL PRO                                                             |1,000     |UN        |1663,866         |0                |0,00      |0,00      |0                |0       |1664             |
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+H: **DETALLE DE REFERENCIA**
+H:Corr. |Tipo Sii  |Folio               |Fecha     |Cod Refer.

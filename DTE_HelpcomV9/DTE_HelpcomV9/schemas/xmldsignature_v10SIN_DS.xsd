@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Schema for XML Signatures
+    http://www.w3.org/2000/09/xmldsig#
+    $Revision: 1.1 $ on $Date: 2002/02/08 20:32:26 $ by $Author: reagle $
+
+    Copyright 2001 The Internet Society and W3C (Massachusetts Institute
+    of Technology, Institut National de Recherche en Informatique et en
+    Automatique, Keio University). All Rights Reserved.
+    http://www.w3.org/Consortium/Legal/
+
+    This document is governed by the W3C Software License [1] as described
+    in the FAQ [2].
+
+    [1] http://www.w3.org/Consortium/Legal/copyright-software-19980720
+    [2] http://www.w3.org/Consortium/Legal/IPR-FAQ-20000620.html#DTD 
+
+Fecha ultima actualización : 10-03-05
+
+-->
+<!-- Modificación NIC Labs (Tomas Barros), 17 Noviembre 2009:
+Razon: Con prefijo xmldsig, xmlbeans reclama al generar las clases
+
+Original:
+<ds:schema targetNamespace="http://www.w3.org/2000/09/xmldsig#" xmlns:xmldsig="http://www.w3.org/2000/09/xmldsig#" xmlns:ds="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<ds:element name="Signature" type="xmldsig:SignatureType">
+
+Nuevo:
+<ds:schema targetNamespace="http://www.w3.org/2000/09/xmldsig#" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:ds="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<ds:element name="Signature" type="dsig:SignatureType">
+
+-->
+<schema targetNamespace="http://www.w3.org/2000/09/xmldsig#" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:ds="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<element name="Signature" type="dsig:SignatureType">
+		<annotation>
+			<documentation>Firma Digital sobre Documento</documentation>
+		</annotation>
+	</element>
+	<complexType name="SignatureType">
+		<annotation>
+			<documentation>Firma Digital con Restricciones</documentation>
+		</annotation>
+		<sequence>
+			<element name="SignedInfo">
+				<annotation>
+					<documentation>Descripcion de la Informacion Firmada y del Metodo de Firma</documentation>
+				</annotation>
+				<complexType>
+					<sequence>
+						<element name="CanonicalizationMethod">
+							<annotation>
+								<documentation>Algoritmo de Canonicalizacion</documentation>
+							</annotation>
+							<complexType>
+								<attribute name="Algorithm" type="ds:anyURI" use="required" fixed="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+							</complexType>
+						</element>
+						<element name="SignatureMethod">
+							<annotation>
+								<documentation>Algoritmo de Firma</documentation>
+							</annotation>
+							<complexType>
+								<attribute name="Algorithm" use="required">
+									<simpleType>
+										<restriction base="ds:anyURI">
+											<enumeration value="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+											<enumeration value="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+										</restriction>
+									</simpleType>
+								</attribute>
+							</complexType>
+						</element>
+						<element name="Reference">
+							<annotation>
+								<documentation>Referencia a Elemento Firmado</documentation>
+							</annotation>
+							<complexType>
+								<sequence>
+									<element name="Transforms" minOccurs="0">
+										<annotation>
+											<documentation>Algoritmo de Transformacion</documentation>
+										</annotation>
+										<complexType>
+											<sequence>
+												<element name="Transform">
+													<complexType>
+														<attribute name="Algorithm" type="ds:anyURI" use="required"/>
+													</complexType>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+									<element name="DigestMethod">
+										<annotation>
+											<documentation>Algoritmo de Digest</documentation>
+										</annotation>
+										<complexType>
+											<attribute name="Algorithm" type="ds:anyURI" use="required" fixed="http://www.w3.org/2000/09/xmldsig#sha1"/>
+										</complexType>
+									</element>
+									<element name="DigestValue" type="ds:base64Binary">
+										<annotation>
+											<documentation>Valor de Digest</documentation>
+										</annotation>
+									</element>
+								</sequence>
+								<attribute name="URI" type="ds:anyURI" use="required"/>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="SignatureValue" type="ds:base64Binary">
+				<annotation>
+					<documentation>Valor de la Firma Digital</documentation>
+				</annotation>
+			</element>
+			<element name="KeyInfo">
+				<annotation>
+					<documentation>Informacion de Claves Publicas y Certificado</documentation>
+				</annotation>
+				<complexType>
+					<sequence>
+						<element name="KeyValue">
+							<complexType>
+								<choice>
+									<element name="RSAKeyValue">
+										<annotation>
+											<documentation>Informacion de Claves Publicas RSA</documentation>
+										</annotation>
+										<complexType>
+											<sequence>
+												<element name="Modulus" type="ds:base64Binary">
+													<annotation>
+														<documentation>Modulo Clave RSA</documentation>
+													</annotation>
+												</element>
+												<element name="Exponent" type="ds:base64Binary">
+													<annotation>
+														<documentation>Exponente Clave RSA</documentation>
+													</annotation>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+									<element name="DSAKeyValue">
+										<annotation>
+											<documentation>Informacion de Claves Publicas DSA</documentation>
+										</annotation>
+										<complexType>
+											<sequence>
+												<element name="P" type="ds:base64Binary">
+													<annotation>
+														<documentation>Modulo Primo</documentation>
+													</annotation>
+												</element>
+												<element name="Q" type="ds:base64Binary">
+													<annotation>
+														<documentation>Entero Divisor de P - 1</documentation>
+													</annotation>
+												</element>
+												<element name="G" type="ds:base64Binary">
+													<annotation>
+														<documentation>Entero f(P, Q)</documentation>
+													</annotation>
+												</element>
+												<element name="Y" type="ds:base64Binary">
+													<annotation>
+														<documentation>G**X mod P</documentation>
+													</annotation>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+								</choice>
+							</complexType>
+						</element>
+						<element name="X509Data">
+							<annotation>
+								<documentation>Informacion del Certificado Publico</documentation>
+							</annotation>
+							<complexType>
+								<sequence>
+									<element name="X509Certificate" type="ds:base64Binary">
+										<annotation>
+											<documentation>Certificado Publico</documentation>
+										</annotation>
+									</element>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</schema>

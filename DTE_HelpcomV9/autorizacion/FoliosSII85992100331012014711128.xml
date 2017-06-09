@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<AUTORIZACION>
+	<CAF version="1.0">
+		<DA>
+			<RE>85992100-0</RE>
+			<RS>SEMILLAS S Z SOCIEDAD ANONIMA</RS>
+			<TD>33</TD>
+			<RNG>
+				<D>1</D>
+				<H>100</H>
+			</RNG>
+			<FA>2014-07-01</FA>
+			<RSAPK>
+				<M>ruGf6g5dsDGfle/jTKqCtO78tx2miaKcXLXTxMC5jyaibbqisc63dq9XMKoLi+rNM+doSXCaGdU7DT6A4DAJvQ==</M>
+				<E>Aw==</E>
+			</RSAPK>
+			<IDK>100</IDK>
+		</DA>
+		<FRMA algoritmo="SHA1withRSA">Feg5KEawSnZcPwM334bG6oD4vgr/GAOqto3txL3EMdsOPt51pHeQ7y0Dhws+Q7v/ybdj8NZaYkGK/xgVGPA0hA==</FRMA>
+	</CAF>
+	<RSASK>-----BEGIN RSA PRIVATE KEY-----
+		MIIBOQIBAAJBAK7hn+oOXbAxn5Xv40yqgrTu/LcdpominFy108TAuY8mom26orHO
+		t3avVzCqC4vqzTPnaElwmhnVOw0+gOAwCb0CAQMCQHSWapwJk8rLv7lKl4hxrHif
+		UyS+bwZsaD3OjS3V0QoYprsF2YRuFL7H+ycierVbfvfItDBX8sVyo9kXJXuUuSsC
+		IQDj0UNA2xmDNGcFugvKWm8Qgg6UccjSaLU0CvwTXkmkUQIhAMSD7puQEBUkHFi7
+		6okhcn4+K8WPI9uI9BE8n7VIh0+tAiEAl+DXgJIRAiLvWSayhub0tawJuEvbNvB4
+		zVyoDOmGbYsCIQCDAp8SYAq4wr2QfUcGFkxUKXKDtMKSW01g0xUjha+KcwIgZ8fa
+		sCZOo5MU0mWE4VGzoA2bQ19SUiCTe7UxLQPsgGs=
+		-----END RSA PRIVATE KEY-----
+	</RSASK>
+
+	<RSAPUBK>-----BEGIN PUBLIC KEY-----
+		MFowDQYJKoZIhvcNAQEBBQADSQAwRgJBAK7hn+oOXbAxn5Xv40yqgrTu/Lcdpomi
+		nFy108TAuY8mom26orHOt3avVzCqC4vqzTPnaElwmhnVOw0+gOAwCb0CAQM=
+		-----END PUBLIC KEY-----
+	</RSAPUBK>
+</AUTORIZACION>

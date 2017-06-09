@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE version="1.0">
+<Documento ID="N15">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>15</Folio>
+<FchEmis>2015-08-07</FchEmis>
+<FmaPago>2</FmaPago>
+<FchCancel>2015-08-07</FchCancel>
+<MedioPago>LT</MedioPago>
+</IdDoc>
+<Emisor>
+<RUTEmisor>76415442-8</RUTEmisor>
+<RznSoc>FERRETERIA LA PRUEBA</RznSoc>
+<GiroEmis>FERRETERIA</GiroEmis>
+<Acteco>0</Acteco>
+<DirOrigen>AVDA BERNARDO OHIGGINS 1096</DirOrigen>
+<CmnaOrigen>TEMUCO</CmnaOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>10434553-0</RUTRecep>
+<RznSocRecep>ACUÑA RAMIREZ JUAN</RznSocRecep>
+<GiroRecep>CONTRATISTA</GiroRecep>
+<Contacto>Nombre contacto</Contacto>
+<DirRecep>TEMUCO</DirRecep>
+<CmnaRecep/>
+<CiudadRecep>TEMUCO</CiudadRecep>
+</Receptor>
+<Totales>
+<MntNeto>4933</MntNeto>
+<TasaIVA>19</TasaIVA>
+<IVA>937</IVA>
+<MntTotal>5870</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<NmbItem>ADHES.INSTANTANEO SUPER PEGAMENT UYUSTOOLS</NmbItem>
+<QtyItem>1.0</QtyItem>
+<PrcItem>294.118</PrcItem>
+<DescuentoPct>0.0</DescuentoPct>
+<DescuentoMonto>0</DescuentoMonto>
+<MontoItem>294</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<NmbItem>ADHES.AGOREX 60 POMO 120CC. HENKEL</NmbItem>
+<QtyItem>1.0</QtyItem>
+<PrcItem>2394.958</PrcItem>
+<DescuentoPct>0.0</DescuentoPct>
+<DescuentoMonto>0</DescuentoMonto>
+<MontoItem>2395</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>3</NroLinDet>
+<NmbItem>ADHES.AGOREX 60 TARRO 1/32GLN AGOREX</NmbItem>
+<QtyItem>1.0</QtyItem>
+<PrcItem>1420.168</PrcItem>
+<DescuentoPct>0.0</DescuentoPct>
+<DescuentoMonto>0</DescuentoMonto>
+<MontoItem>1420</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>4</NroLinDet>
+<NmbItem>ADHES.PEGAFIX MADERA POTE 110 HENKEL</NmbItem>
+<QtyItem>1.0</QtyItem>
+<PrcItem>823.529</PrcItem>
+<DescuentoPct>0.0</DescuentoPct>
+<DescuentoMonto>0</DescuentoMonto>
+<MontoItem>824</MontoItem>
+</Detalle>
+<TED version="1.0"><DD><RE>76415442-8</RE><TD>33</TD><F>15</F><FE>2015-08-07</FE><RR>10434553-0</RR><RSR>ACUÑA RAMIREZ JUAN</RSR><MNT>5870</MNT><IT1>ADHES.INSTANTANEO SUPER PEGAMENT UYUSTOO</IT1><CAF version="1.0"><DA>
+			<RE>79716930-7</RE>
+			<RS>SOC COMERCIALIZADORA B Y K LIMITADA</RS>
+			<TD>33</TD>
+			<RNG>
+				<D>1</D>
+				<H>100</H>
+			</RNG>
+			<FA>2015-03-02</FA>
+			<RSAPK>
+				<M>sGXWa8U4UHaibC1inCZetnT41uJV9xiMpupiJXU1trgNbW8iz2q33wUMZIUvDGO6zTJ140o4+ZVKTUGEDYV2HQ==</M>
+				<E>Aw==</E>
+			</RSAPK>
+			<IDK>100</IDK>
+		</DA><FRMA algoritmo="SHA1withRSA">Kfv7SjAfuvSScmGlAnfzIIL+ZOT+YKieYUVEay8D7O3M0Pt20VDL93zziYBU0Drf5xJ578ZchMCH3GVWkhXjoQ==</FRMA></CAF><TSTED>2015-08-07T10:32:13</TSTED></DD><FRMT algoritmo="SHA1withRSA">AJZkHh3NKGXfBRb7Eo/85jSLAKKAzJodSD10ZA9YU8l+oxergnBmWSA5smfz1O4r97FNAu2ctrssUutbfzIhYw==</FRMT></TED><TmstFirma>2015-08-07T11:50:55</TmstFirma></Documento>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#N15">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>2N4ULGm0jBMLjXVUSYgagnahtBU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+LXx4NLcML8EQrfvlRe00E5fYNRocBI0BnZ8GPQ8ox4sb0L5c1kw/zDpyuk+1q5e+rrfhgEuNmg/u
+mKMvCMRr3hdUmlRU9f1QWFOn1KOF1XoEQtwkP2wd9vkTRbJplVYy1wpa6oZmMXiMucsInPIFkslp
+JMybhjjgQu3/Vs6x/PfgNwL4olZ6EkSwtKHlQk3FGHPJ9/LBGCnik7mULV8qdckM4+US0PQV5R28
+PQJsO1ZdDlWx2I9azYS4NmcCMs8iDYvOk8ZHQPuDfMDq3JnKRujXzazWPT2sf3se/J2Jnc6AzgP6
+hgCVp0Rk5tqszOLFuVFD04ou2OlJ2hEIGPXDYA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0GBszB7pKNH1e+U+C5KCnFrwsSf+6q7BB7gp85yNi+ymkkVwG2HQ8s0P1vHLoF2q6a7rauWAybfO
+erac5Krmi33zss/fYG8SzPdCocVwcAxNd5jpCxorKtLOFUGBLBzt5nqmTvWwJU/Ytngod4C5bExi
+oSn3WA+8o4cLGaQUElD3VahCRJgrnJvUAeDC9QD06kdNiGkLutH+w+ZbV5t+tdo1LsqAX/Hrk+aV
+XjEV4WgI00hgzxxKTpN8aswav4VKAwgcEZJn3Zv4lz5Gnv+YYrZreQlYglBOFidCKhsLWQ4uyMVh
+m6FI12FYG8A8zGGBQSOCmYVkZqeFWRlFaXl/QQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGXTCCBUWgAwIBAgIQSlknTJqk4WaU672PKuGDQzANBgkqhkiG9w0BAQUFADCBqDELMAkGA1UE
+BhMCQ0wxFDASBgNVBAoTC0UtU2lnbiBTLkEuMR8wHQYDVQQLExZTeW1hbnRlYyBUcnVzdCBOZXR3
+b3JrMUEwPwYDVQQDEzhFLVNpZ24gU0MgQ2xhc3MgMiBDb25zdW1lciBJbmRpdmlkdWFsIFN1YnNj
+cmliZXIgQ0EgLSBHMjEfMB0GCSqGSIb3DQEJARYQZS1zaWduQGUtc2lnbi5jbDAeFw0xNDEyMTgw
+MDAwMDBaFw0xNzEyMTcyMzU5NTlaMIIBJjEUMBIGA1UEChMLRS1TaWduIFMuQS4xLTArBgNVBAsT
+JFRlcm1pbm9zIGRlIHVzbyBlbiB3d3cuZS1zaWduLmNsL3JwYTElMCMGA1UECxMcQXV0aGVudGlj
+YXRlZCBieSBFLVNpZ24gUy5BLjEnMCUGA1UECxMeTWVtYmVyLCBTeW1hbnRlYyBUcnVzdCBOZXR3
+b3JrMRswGQYDVQQLExJEaWdpdGFsIElEIENsYXNzIDIxGDAWBgNVBAsUD1JVVCAtIDY2ODcxMzkt
+ODEnMCUGA1UEAwweSk9SR0UgQVVHVVNUTyBLUkFVU1MgU0VQVUxWRURBMS8wLQYJKoZIhvcNAQkB
+FiBqb3JnZS5rcmF1c3Muc2VwdWx2ZWRhQGdtYWlsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBANBgbMwe6SjR9XvlPguSgpxa8LEn/uquwQe4KfOcjYvsppJFcBth0PLND9bxy6Bd
+qumu62rlgMm3znq2nOSq5ot987LP32BvEsz3QqHFcHAMTXeY6QsaKyrSzhVBgSwc7eZ6pk71sCVP
+2LZ4KHeAuWxMYqEp91gPvKOHCxmkFBJQ91WoQkSYK5yb1AHgwvUA9OpHTYhpC7rR/sPmW1ebfrXa
+NS7KgF/x65PmlV4xFeFoCNNIYM8cSk6TfGrMGr+FSgMIHBGSZ92b+Jc+Rp7/mGK2a3kJWIJQThYn
+QiobC1kOLsjFYZuhSNdhWBvAPMxhgUEjgpmFZGanhVkZRWl5f0ECAwEAAaOCAgAwggH8MCIGA1Ud
+EQQbMBmgFwYIKwYBBAHBAQGgCxYJNjY4NzEzOS04MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgWgME8G
+A1UdHwRIMEYwRKBCoECGPmh0dHA6Ly9vbnNpdGVjcmwudmVyaXNpZ24uY29tL0VTaWduU0FDU0ND
+bGFzczJHMi9MYXRlc3RDUkwuY3JsMB8GA1UdIwQYMBaAFNvPd2JYCzg2JS0a0mrEVAGybkwOMB0G
+A1UdDgQWBBT8NNUFAvZLaMnlo+zeYiaaIEA5xzA7BggrBgEFBQcBAQQvMC0wKwYIKwYBBQUHMAGG
+H2h0dHA6Ly9vbnNpdGUtb2NzcC52ZXJpc2lnbi5jb20wgZgGA1UdIASBkDCBjTCBigYLYIZIAYb4
+RQEHFwIwezAxBggrBgEFBQcCARYlaHR0cHM6Ly93d3cuZS1zaWduLmNsL3JlcG9zaXRvcmlvLmh0
+bTBGBggrBgEFBQcCAjA6GjhDZXJ0aWZpY2FkbyBwYXJhIHVzbyBUcmlidXRhcmlvLCBDb21lcmNp
+bywgUGFnb3MgeSBPdHJvczARBglghkgBhvhCAQEEBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwIG
+CCsGAQUFBwMEMCMGA1UdEgQcMBqgGAYIKwYBBAHBAQKgDBYKOTk1NTE3NDAtSzANBgkqhkiG9w0B
+AQUFAAOCAQEAxhlgmNPmf+OQRWKw62R3rOxrO5mQcx+ARIOs/VqrbPUbTmlJwVv5xG1UJf7ey/Ri
+0e7DXy94Wmk0aTCFQwjm2BRb/0t3b1W9SoxZUSZdOSxmdfE8MO1J2HGhjodM2qdSD7OTIodA9rJE
+yKAT32poPfwj/zBsP9t0ELXd+re1dW+JHzzUEULOk2PBjj3z0We8NeQdcWyzj9hefU5+F+npMjt+
+ZO49CUAd8h5xyY7KHem6KwEivItPzOlBBqoRe2+AM6L7jQqvAzGr5ztmKJ5Thj307IjEo8yKCCtx
+8aTmbEesg5roDpuGvxtccN12zxWb+MkRIiTFNsvXtCZHLt+FoA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature></DTE>

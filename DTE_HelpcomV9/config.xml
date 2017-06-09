@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<baseDatos>db_dte_helpcom</baseDatos>
+	<server>localhost</server>
+	<usuario>root</usuario>
+	<password>m1m2m3me</password>
+	<sufijo>test</sufijo>
+	<store_facturas>facturas\</store_facturas>
+	<store_caf>autorizacion\</store_caf>
+	<store_cert>certificados\</store_cert>
+</config>

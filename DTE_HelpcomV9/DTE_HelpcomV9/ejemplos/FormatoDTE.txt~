@@ -1,0 +1,148 @@
+				FORMATO DOCUMENTOS TRIBUTARIOS ELECTRÓNICOS
+				Versión 1.0
+
+A: TipoDTE               	NUM 	 3 (1)
+A: Folio			NUM 	10 (1)
+A: FchEmis			ALFA	10 (1)
+A: FchPago			ALFA	10 (1)
+A: MntPago			NUM	18 (1)
+A: RUTEmisor			ALFA	10 (1)
+A: RznSoc			ALFA	100(1)
+A: GiroEmis			ALFA	80 (1)
+A: Acteco			NUM	 6 (1)
+A: DirOrigen			ALFA	60 (1)
+A: CmnaOrigen			ALFA	20 (1)
+A: RUTRecep			ALFA	10 (1)
+A: RznSocRecep			ALFA	100(1)
+A: GiroRecep			ALFA 	40 (1)
+A: DirRecep			ALFA	70 (1)
+A: CmnaRecep			ALFA 	20 (1)
+A: MntTotal			NUM	18 (1)
+A: TipoDespacho			NUM	 1 (2) *
+A: IndServicio			NUM 	 1 (2) *
+A: MntBruto			NUM	 1 (2) *
+A: FmaPago			NUM 	 1 (2) *
+A: FchVenc			ALFA	10 (2) *
+A: CdgSIISucur			NUM 	 9 (2)
+A: RUTMandante			ALFA 	10 (2)
+A: RUTSolicita			ALFA	10 (2)
+A: Patente			ALFA	 8 (2)
+A: RUTTrans			ALFA 	10 (2)
+A: CmnaDest			ALFA 	20 (2)
+A: MntNeto			NUM	18 (2)
+A: MntExe			NUM	18 (2)
+A: MntBase			NUM 	18 (2)
+A: MntMargenCom			NUM 	18 (2)
+A: TasaIVA			NUM	 5 (2)
+A: IVA				NUM	18 (2)
+A: TipoImp			ALFA	 3 (2)
+A: TasaImp			NUM	 5 (2)
+A: MontoImp			NUM 	18 (2)
+A: CredEC			NUM	18 (2)
+A: GrntDep			NUM 	18 (2)
+A: MontoNF			NUM	18 (2)
+A: TpoMoneda			ALFA	15 (2)
+A: MntMargComOtrMnda		NUM	18 (2)
+A: IVAOtrMnda			NUM 	18 (2)
+A: TipoImpOtrMnda		ALFA 	 3 (2) *
+A: TasaImpOtrMnda		NUM	 5 (2)
+A: VlrImpOtrMnda		NUM 	18 (2)
+A: MntTotOtrMnda		NUM	18 (2)
+B: NroLinDet			NUM	 4 (1)
+B: NmbItem			ALFA	80 (1)
+B: MontoItem			NUM	18 (1)
+B: IndExe			NUM	 1 (2) *
+B: IndAgente			ALFA	 1 (2) *
+B: MntBaseFaena			NUM	18 (2)
+B: MntMargComer			NUM 	18 (2)
+B: PrcConsFinal			NUM	18 (2)
+B: QtyRef			NUM	18 (2)
+B: UnmdRef			ALFA	18 (2)
+B: PrcRef			NUM	18 (2)
+B: QtyItem			NUM 	18 (2)
+B: UnmdItem			ALFA 	 4 (2)
+B: PrcItem			NUM	18 (2)
+B: PrcOtrMon			NUM	18 (2)
+B: Moneda			ALFA 	 3 (2)
+B: FctConv			NUM	10 (2)
+B: DescuentoMonto		NUM	18 (2)
+B: RecargoPct			NUM	 5 (2)
+B: RecargoMonto			NUM	18 (2)
+B: CodImpAdic			ALFA 	 6 (2)
+C: NroSTI			NUM	 2 (1)
+C: GlosaSTI			ALFA	40 (1)
+D: NroLinDR			NUM	 2 (1)
+D: TpoMov			ALFA	 1 (1)
+D: TpoValor			ALFA 	 1 (1)
+D: ValorDR			NUM	18 (1)
+D: IndExeDR			NUM	 1 (2) *
+E: NroLinRef			NUM	 2 (1)
+E: TpoDocRef			ALFA 	 3 (1)
+E: FolioRef			ALFA 	18 (1)
+E: FchRef			ALFA 	10 (1)
+
+
+#######################
+
+A: ENCABEZADO
+B: DETALLE DEL PRODUCTO O SERVICIO
+C: SUBTOTALES INFORMATIVOS
+D: INFORMACION O DESCUENTOS O RECARGOS
+E: INFORMACION DE REFERENCIA
+
+#######################
+(*)
+ANEXOS A:
+TipoDespacho: 	1: Despacho por cuenta del receptor del
+		documento (cliente o vendedor en caso de
+		Facturas de compra.)
+		2: Despacho por cuenta del emisor a
+		instalaciones del cliente
+		3: Despacho por cuenta del emisor a otras
+		instalaciones (Ejemplo: entrega en Obra)
+
+IndServicio	1: Factura de servicios periódicos domiciliarios
+		2: Factura de otros servicios periódicos
+		3: Factura de Servicios. (en caso de Factura de
+		Exportación: Servicios calificados como tal
+		por Aduana) Sólo para Facturas de
+		Exportación:
+		4: Servicios de Hotelería
+		5: Servicio de Transporte Terrestre Internacional.
+
+MntBruto	1: Montos de líneas de detalle vienen expresados
+		en montos brutos.
+
+FmaPago		1: Contado;
+	  	2: Crédito
+		3: Sin costo (entrega gratuita)
+
+FchVenc		Fecha válida entre 2002-08-01 y 2050-12-31
+
+TipoImpOtrMnda 	Código válido de impuesto o retención (Ver Índice 4.-
+		Codificación
+		Tipos de Impuesto)
+
+ANEXOS B:
+
+IndExe		1: No afecto o exento de IVA (10)
+		2: Producto o servicio no es facturable
+		3: Garantía de depósito por envases (Cervezas,
+		Jugos, Aguas Minerales, Bebidas Analcohólicas u
+		otros autorizados por Resolución especial)
+		4: Ítem No Venta. (Para facturas y guías de
+		despacho (ésta última con Indicador Tipo de Traslado de Bienes 
+		igual a 1) y este ítem no será facturado.
+		5: Ítem a rebajar. Para guías de despacho NO VENTA que rebajan
+		guía anterior. En el área de referencias se debe
+		indicar la guía anterior.
+		6: Producto o servicio no facturable negativo
+		(excepto en liquidaciones -factura)
+
+IndAgente	"R"
+
+ANEXOS D:
+
+IndExeDR	1: No afecto o exento de IVA
+		2: No facturable
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE version="1">
+	<Documento ID="N33015">
+		<Encabezado>
+			<IdDoc>
+				<TipoDTE>33</TipoDTE>
+				<Folio>15</Folio>
+				<FchEmis>2014-05-01</FchEmis>
+				<FmaPago>1</FmaPago>
+				<FchCancel>2014-05-01</FchCancel>
+			</IdDoc>
+			<Emisor>
+				<RUTEmisor>85992100-0</RUTEmisor>
+				<RznSoc>SEMILLAS S Z SOCIEDAD ANONIMA</RznSoc>
+				<GiroEmis>CULTIVO DE PAPAS, VENTA AL POR MAYOR DE OTROS PRODUCTOS
+					N.C.P.,</GiroEmis>
+				<Acteco>11141</Acteco>
+				<Acteco>519000</Acteco>
+				<Sucursal>ARTURO ALESSANDRI 45</Sucursal>
+				<CdgSIISucur>5010624</CdgSIISucur>
+				<DirOrigen>ARTURO ALESSANDRI 45</DirOrigen>
+				<CmnaOrigen>FRUTILLAR</CmnaOrigen>
+				<CiudadOrigen>FRUTILLAR</CiudadOrigen>
+				<CdgVendedor>Vendedor demo</CdgVendedor>
+			</Emisor>
+			<Receptor>
+				<RUTRecep>60803000-K</RUTRecep>
+				<RznSocRecep>Servicio de Impuestos Internos</RznSocRecep>
+				<GiroRecep>GOBIERNO CENTRAL Y ADMINISTRACION PUB.</GiroRecep>
+				<Contacto>usuario test</Contacto>
+				<DirRecep>Teatinos 120</DirRecep>
+				<CmnaRecep>Santiago</CmnaRecep>
+				<CiudadRecep>Santiago</CiudadRecep>
+			</Receptor>
+			<Totales>
+				<MntNeto>553448</MntNeto>
+				<MntExe>0</MntExe>
+				<TasaIVA>19</TasaIVA>
+				<IVA>105155</IVA>
+				<MntTotal>658603</MntTotal>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INTERNA</TpoCodigo>
+				<VlrCodigo>112233</VlrCodigo>
+			</CdgItem>
+			<NmbItem>Cajón AFECTO</NmbItem>
+			<QtyItem>146</QtyItem>
+			<PrcItem>2228</PrcItem>
+			<MontoItem>325288</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>2</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INTERNA</TpoCodigo>
+				<VlrCodigo>445566</VlrCodigo>
+			</CdgItem>
+			<NmbItem>Relleno AFECTO</NmbItem>
+			<QtyItem>62</QtyItem>
+			<PrcItem>3680</PrcItem>
+			<MontoItem>228160</MontoItem>
+		</Detalle>
+	</Documento>
+</DTE>
